@@ -33,4 +33,7 @@ environemtnal contamination levels with behavioral data and employing statistica
 relationships, this study will provide insight into whether microplastic pollution alters shorebird foraging
 efficiency, opening up further research on how sanderlings may be increasing their microplastic consumption
 in response to rising microplastic contamination.
-1
+
+```{r}
+MoleCrabMP <- read.csv("MoleCrabMP.csv") 
+```
