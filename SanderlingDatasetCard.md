@@ -1,5 +1,5 @@
 ---
-**Dataset title:** Labeled marine invertebrate and microbial DNA reads
+**Dataset title:** Mole Crab Microplastic Dataset
 
 **Dataset curator:** Nicky Tumbale, Master's Researcher San Francisco State University
 
