@@ -34,3 +34,6 @@ relationships, this study will provide insight into whether microplastic polluti
 efficiency, opening up further research on how sanderlings may be increasing their microplastic consumption
 in response to rising microplastic contamination.
 
+```{r}
+MoleCrabMP <- read_csv("MoleCrabMP.csv")
+```
