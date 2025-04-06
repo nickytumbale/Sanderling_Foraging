@@ -35,5 +35,5 @@ efficiency, opening up further research on how sanderlings may be increasing the
 in response to rising microplastic contamination.
 
 ```{r}
-MoleCrabMP <- read_csv("MoleCrabMP.csv")
+MoleCrabMP <- read_csv("data/MoleCrabMP.csv")
 ```
