@@ -1,0 +1,10 @@
+---
+title: "The effects of microplastics (MP) on the foraging success of sanderlings Calidris alba"
+author: "Nicky Tumbale"
+date: "3/10/25"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+  The increasing presence of microplastics (MP) in coastal ecosystems has raised concerns about their potential impacts on wildlife, particularly in coastal environments. Microplastics on 
