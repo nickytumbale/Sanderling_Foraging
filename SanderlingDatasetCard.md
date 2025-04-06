@@ -1,7 +1,7 @@
 ---
-**Dataset title:** Mole Crab Microplastic Dataset
+Dataset title:** Mole Crab Microplastic Dataset
 
-**Dataset curator:** Nicky Tumbale, Master's Researcher San Francisco State University
+Dataset curator:** Nicky Tumbale, Master's Researcher San Francisco State University
 
 ---
 
