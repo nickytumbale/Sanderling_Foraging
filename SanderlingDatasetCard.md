@@ -3,9 +3,6 @@
 
 **Dataset curator:** Nicky Tumbale, Master's Researcher San Francisco State University
 
-output:
-  pdf_document: default
-  html_document: default
 ---
 
 ## Dataset Summary
