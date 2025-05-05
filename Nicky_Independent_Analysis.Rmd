@@ -1,0 +1,47 @@
+---
+title: "Independent Project Data Analysis"
+author: "Nicky Tumbale"
+date: "May 4, 2025"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+# Does the reduced burrowing behavior in *E. analoga* resulting from microplastic ingestion impact the foraging success of sanderlings (*Calidris alba*), a primary predator?
+
+# Aim: Assess the abundance of microplastics in prey samples across different locations along the Northern California coast.
+
+### Hypothesis: There is a gradient of microplastic contamination in Pacific mole crabs, decreasing from San Francisco southward, with the highest levels at Ocean Beach, intermediate levels at Half Moon Bay, and the lowest levels at Pescadero.
+
+### Null Hypothesis: Microplastic contamination in Pacific mole crabs are the same across all three locations. 
+
+### Alternative Hypothesis: Microplastic contamination in Pacific mole crabs will increase from San Francisco moving southward.
+
+### Statistical Approach
+
+To test for statistical significance of microplastics in the guts of pacific mole crabs across all three sites, an ANOVA should be used. A significant p-value (typically p < 0.05) will indicate that at least one site has a mean microplastic contamination level that differs from the others. The boxplot provides a visual representation of the distribution, showing medians, interquartile ranges, and potential outliers for each site, which helps in understanding how contamination varies across my field locations. According to the ANOVA test, there was a statistical significance of microplastics along the three sites.
+
+```{r}
+MoleCrab <- read.csv("MoleCrabMP.csv")
+#MoleCrab
+
+#ANOVA
+Molecrab_aov <- aov(`Gut.MP....filter.area.` ~ Site_name, data = MoleCrab)
+summary(Molecrab_aov)
+
+#Reorder site columns
+MoleCrab$Site_name <- factor(MoleCrab$Site_name, levels = c("Pescadero", "Half Moon Bay", "Ocean Beach"))
+
+
+#Create box plot
+boxplot(`Gut.MP....filter.area.` ~ Site_name,
+        data = MoleCrab,
+        col = c("lightblue", "lightgreen", "salmon"),
+        main = "Gut MP (% filter area) by Site",
+        xlab = "Site",
+        ylab = "Gut MP (% filter area)")
+```
+
+
+### Findings
+There is a statistical significance in microplastic contamination across the three sites.
