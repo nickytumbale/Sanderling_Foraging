@@ -26,7 +26,7 @@ sanderling foraging rates through video recordings. Foraging success will be qua
 attempts out of total attempts per 20-second video. To test variation in microplastic concentrations in prey across the
 three sampling locations, a one-way ANOVA will be performed. A regression analysis will also be used
 to test a for a positive correlation between foraging success and microplastic concentrations. By integrating
-environemtnal contamination levels with behavioral data and employing statistical analyses to evaluate the
+Pacific mole crab contamination levels with behavioral data and employing statistical analyses to evaluate the
 relationships, this study will provide insight into whether microplastic pollution alters shorebird foraging
 efficiency, opening up further research on how sanderlings may be increasing their microplastic consumption
 in response to rising microplastic contamination.
