@@ -16,18 +16,15 @@ brates, such as Pacific mole crabs (Emerita analoga), a key prey species for sho
 croplastic ingestion may negaticely impact invertebrate prey by decreasing their burrowing ability (Matthews,
 2022), potentially affecting predator-prey dynamics in sandy beach ecosystems. However, the direct effects
 of microplastic contamination on the foraging success of sanderlings remain unexplored.
-  This study aims to investigate how microplastic contamination in sand, water, and prey influences the
+  This study aims to investigate how microplastic contamination in prey influences the
 foraging success of sanderlings along the Northern California coast. Given that microplastic exposure has
 been linked to reduced burrowing ability in Pacific mole crabs, I hypothesize that sanderlings will exhibit
 higher foraging success in areas with greater microplastic concentrations due to increased prey accessibility.
-To test this, I will quantify microplastic abundance in environmental samples and prey items to across a
-gradient of pollution levels through density separation and examination under a fluorescence microscope in
-the CMIC. I will be simultaneously assessing sanderling foraging rates through video recordings. Foraging
-success will be quantified by measuring successful captures out of total attacks (pecks, probes, or dunks)
-per 20-second video. To test variation in microplastic concentrations in sand, water, and prey across the
-three sampling locations, a one-way ANOVA will be performed. A Pearson’s correlation test will then be
-conducted to assess the correlation between the foraging success rates of sanderlings and the microplastic
-levels in sand, water, and prey items across the different locations. A regression analysis will also be used
+To test this, I will quantify microplastic abundance in prey items across a gradient of pollution levels through 
+density separation and examination under a fluorescence microscope in the CMIC. I will be simultaneously assessing 
+sanderling foraging rates through video recordings. Foraging success will be quantified by measuring successful 
+attempts out of total attempts per 20-second video. To test variation in microplastic concentrations in prey across the
+three sampling locations, a one-way ANOVA will be performed. A regression analysis will also be used
 to test a for a positive correlation between foraging success and microplastic concentrations. By integrating
 environemtnal contamination levels with behavioral data and employing statistical analyses to evaluate the
 relationships, this study will provide insight into whether microplastic pollution alters shorebird foraging
