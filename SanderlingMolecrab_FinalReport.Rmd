@@ -36,15 +36,25 @@ in response to rising microplastic contamination.
 
 ## Description of the Data
 
-  This study collects two types of data to assess the relationship between microplastic contamination and sanderling foraging success along the Northern California coast. First, microplastic concentrations in prey items—primarily Pacific mole crabs—are quantified using density separation and fluorescence microscopy. Second, sanderling foraging behavior is recorded via video, with foraging success calculated as the proportion of successful prey captures per total attempts within 20-second intervals. 
+  This study collects two types of data to assess the relationship between microplastic contamination and sanderling foraging success along
+the Northern California coast. First, microplastic concentrations in prey items—primarily Pacific mole crabs—are quantified using density 
+separation and fluorescence microscopy. Second, sanderling foraging behavior is recorded via video, with foraging success calculated as the
+proportion of successful prey captures per total attempts within 20-second intervals. 
   
 Dataset Card:
 https://github.com/nickytumbale/Sanderling_Foraging/blob/3b797be12adee015a2baec2d85156233ae93dafb/SanderlingDatasetCard.md
   
 ## Statistical Approach
 
-  To test for statistical significance of microplastics in the guts of pacific mole crabs across all three sites, an ANOVA should be used. A significant p-value (typically p < 0.05) will indicate that at least one site has a mean microplastic contamination level that differs from the others. The boxplot provides a visual representation of the distribution, showing medians, interquartile ranges, and potential outliers for each site, which helps in understanding how contamination varies across my field locations. According to the ANOVA test, there was a statistical significance of microplastics along the three sites.
-  A linear regression analysis was then be applied to the foraging success rates and the micro plastic concentrations of the mole crab. According to the regression analysis, there was a positive correlation between foraging success rates and microplastic concentrations.
+  To test for statistical significance of microplastics in the guts of pacific mole crabs across all three sites, an ANOVA should be used.
+A significant p-value (typically p < 0.05) will indicate that at least one site has a mean microplastic contamination level that differs 
+from the others. The boxplot provides a visual representation of the distribution, showing medians, interquartile ranges, and potential 
+outliers for each site, which helps in understanding how contamination varies across my field locations. According to the ANOVA test, there
+was a statistical significance of microplastics along the three sites.
+
+  A linear regression analysis was then be applied to the foraging success rates and the micro plastic concentrations of the mole crab. 
+According to the regression analysis, there was a positive correlation between foraging success rates and microplastic concentrations.
+
   
   
 ```{r}
@@ -98,5 +108,10 @@ https://github.com/nickytumbale/Sanderling_Foraging/blob/3b797be12adee015a2baec2
 
 ## Interpretation of the Results
 
-  According to the simulated data that I created for my datasets, there was a statistical significance between microplastic concentrations across the three locations and microplastic concentrations in relation to foraging success of sanderlings. With a p-value of less than .05, there is a statistical significance. According to the R-squared value, around 36.2% of the variation in foraging success is explained by the microplastic concentrations.
-  Something that I would like to improve with my graphs is to use a different statistical test that will show the microplastic concentrations across the three foraging success rates. Perhaps a box plot would apply more to this.
+  According to the simulated data that I created for my datasets, there was a statistical significance between microplastic concentrations 
+across the three locations and microplastic concentrations in relation to foraging success of sanderlings. With a p-value of less than .05,
+there is a statistical significance. According to the R-squared value, around 36.2% of the variation in foraging success is explained by 
+the microplastic concentrations.
+
+  Something that I would like to improve with my graphs is to use a different statistical test that will show the microplastic 
+concentrations across the three foraging success rates. Perhaps a box plot would apply more to this.
